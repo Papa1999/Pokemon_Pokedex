@@ -1,0 +1,39 @@
+.Card {
+    width: 20%;
+    height: 300px;
+    padding-bottom: 20px;
+    border: solid black 1px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px black;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    background-color: red;
+}
+
+
+
+.Add_Pokedex {
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+    color: black;
+}
+
+
+.Add_Pokedex:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.Layer {
+    display: flex; 
+    justify-content: space-around;
+    padding-top:20px;
+    padding-bottom:50px;
+    gap: 15px;
+    flex-wrap: wrap;
+}

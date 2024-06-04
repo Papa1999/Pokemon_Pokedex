@@ -1,0 +1,16 @@
+.Navbar {
+    display: flex;
+    background-color: red;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.Navbar img{
+    height: 75px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    color: black; 
+}
